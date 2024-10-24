@@ -1,0 +1,50 @@
+[
+  {
+    "model": "habits.habit",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "location": "дома",
+      "habit_time": "2024-10-24T12:02:00Z",
+      "action": "выпить чашечку чая",
+      "is_nice": true,
+      "related_habit": null,
+      "period": 1,
+      "award": null,
+      "complete_time": "00:02:00",
+      "is_public": true
+    }
+  },
+  {
+    "model": "habits.habit",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "location": "в парке",
+      "habit_time": "2024-10-20T12:42:00Z",
+      "action": "пробежка",
+      "is_nice": false,
+      "related_habit": null,
+      "period": 3,
+      "award": "приятно",
+      "complete_time": "00:02:00",
+      "is_public": false
+    }
+  },
+  {
+    "model": "habits.habit",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "location": "в зале",
+      "habit_time": "2024-10-20T12:42:00Z",
+      "action": "тренировка",
+      "is_nice": true,
+      "related_habit": null,
+      "period": 3,
+      "award": null,
+      "complete_time": "00:02:00",
+      "is_public": false
+    }
+  }
+]
